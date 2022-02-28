@@ -1,7 +1,6 @@
-# IMC
+# INTRA-MODAL CONSTERAINT LOSS FOR IMAGE-TEXT RETRIEVAL
 ---
-### INTRA-MODAL CONSTERAINT LOSS FOR IMAGE-TEXT RETRIEVAL
-This is code for IMC work.
+### This is code for IMC work.
 ---
 ## Requirements and Installation
 
@@ -17,12 +16,14 @@ This is code for IMC work.
 ---
 
 ## Download Data
+
 Download the dataset files (MS-COCO and Flickr30K) in /data.
+
 ---
 ## Training new models
 ```bash
-python train.py --data_path "$DATA_PATH" --data_name coco --logger_name 
-runs/coco_imc --max_violation
+python train.py --data_path "$DATA_PATH" --data_name coco --logger_name runs/coco_imc --max_violation
+ --num_epochs 30 --rnn_type LSTM --wordemb glove --use_bidirectional --cnn_type resnet152 --use_restval --il_measure l1 
 ```
 ---
 
