@@ -363,7 +363,7 @@ class IntraLoss(nn.Module):
     Compute contrastive loss
     """
 
-    def __init__(self, margin=0, measure=False, max_violation=False, up=0.5, down=0.05, lamb=0.1):
+    def __init__(self, margin=0, measure=False, max_violation=False, up=0.5, down=0.05, lamb=1.0):
         super(IntraLoss, self).__init__()
         self.margin = margin
         self.measure = measure
