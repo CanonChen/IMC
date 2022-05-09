@@ -12,7 +12,7 @@
 * torchvision
 * torchtext
 * matplotlib
-* nltk:
+* nltk
 ---
 
 ## Download Data
