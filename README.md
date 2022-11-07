@@ -1,4 +1,4 @@
-# INTRA-MODAL CONSTERAINT LOSS FOR IMAGE-TEXT RETRIEVAL[](https://ieeexplore.ieee.org/document/9897195)
+# INTRA-MODAL CONSTERAINT LOSS FOR IMAGE-TEXT RETRIEVAL [IEEE](https://ieeexplore.ieee.org/document/9897195)
 ---
 ### This is code for IMC work. [PDF](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9897195)
 ---
