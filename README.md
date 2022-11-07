@@ -1,6 +1,6 @@
-# INTRA-MODAL CONSTERAINT LOSS FOR IMAGE-TEXT RETRIEVAL
+# INTRA-MODAL CONSTERAINT LOSS FOR IMAGE-TEXT RETRIEVAL[](https://ieeexplore.ieee.org/document/9897195)
 ---
-### This is code for IMC work.
+### This is code for IMC work. [PDF](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9897195)
 ---
 ## Requirements and Installation
 
@@ -38,6 +38,11 @@ evaluation.evalrank('$RUN_PATH/f30k_imc/model_best.pth.tar', data_path='$DATA_PA
 ```
 To do cross-validation on MSCOCO, pass `fold5=True` with a model trained using 
 `$RUN_PATH/coco_imc/model_best.pth.tar`.
-
+---
 ## Acknowledgements
 Our code is besed on VSE++. We thank to the authors for releasing codes.
+---
+## Citation
+```text
+@INPROCEEDINGS{9897195,  author={Chen, Jianan and Zhang, Lu and Wang, Qiong and Bai, Cong and Kpalma, Kidiyo},  booktitle={2022 IEEE International Conference on Image Processing (ICIP)},   title={Intra-Modal Constraint Loss for Image-Text Retrieval},   year={2022},  volume={},  number={},  pages={4023-4027},  doi={10.1109/ICIP46576.2022.9897195}}
+```
